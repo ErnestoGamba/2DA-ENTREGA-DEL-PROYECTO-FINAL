@@ -25,9 +25,8 @@
 }
 
 .header {
-  
   height: 140px;
-   color: #FFFFFF;
+  color: #FFFFFF;
   background-color: #63458A;
   position: sticky;
   top: 0px;
@@ -83,15 +82,13 @@
   font-style: italic;
 }
 
-.body_conocenos {
- 
+.body_conocenos { 
   background-image: url("../img/fondo2.jpg");
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-   ;   
-}
+   }
 
 
 conocenos_1 {
@@ -114,7 +111,7 @@ conocenos_3 {
 .header__nav__ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 /* porque no tengo borde*/
@@ -162,7 +159,6 @@ conocenos_3 {
 
 
 h1 {
-
   position: relative; top: 1vh ; 
   right: auto;
   left: auto;
@@ -189,8 +185,8 @@ h2 {
   width: fit-content;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -322,6 +318,7 @@ ul {
   border-color: beige;
   text-align: center;
   margin-top: 10vh;
+  margin-bottom: 10vh;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
