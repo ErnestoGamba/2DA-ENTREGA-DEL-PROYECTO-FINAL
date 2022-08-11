@@ -21,9 +21,8 @@
 }
 
 .header {
-  height: 140px;
-  color: #FFFFFF;
-  background-color: #63458A;
+   color: #FFFFFF;
+  background-color: #c2b3d4;
   position: sticky;
   top: 0px;
   z-index: 10;
@@ -59,6 +58,7 @@
 .articulosDeBelleza{
    display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   }
 
 .articulodebelleza {
@@ -114,7 +114,6 @@ conocenos_3 {
 .header__nav__ul__li {
   position: relative;
   display: inline-block;
-  top: 30px;
   height: fit-content;
   width: fit-content;
   padding: 30px;
@@ -267,7 +266,9 @@ p {
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   text-align: center;
+  font-weight: bold;
   color: beige;
+  
 }
 
 .precioServicios {
