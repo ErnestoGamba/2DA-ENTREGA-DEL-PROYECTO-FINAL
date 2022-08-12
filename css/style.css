@@ -28,12 +28,14 @@
   z-index: 10;
   }
 
-
+.Promosindex {
+  width: 100%;
+}
 
 .VideoEstetica {
   display: flex ;
   justify-content: center;
-   margin-top: 2%;
+  margin-top: 2%;
   padding: 3%;
 }
 
@@ -41,8 +43,6 @@
 
 
 .cajaArticles {
-  
-  grid-area:cajaArticles ;
   flex-direction: column;
   text-align: center;
   width: fit-content;
