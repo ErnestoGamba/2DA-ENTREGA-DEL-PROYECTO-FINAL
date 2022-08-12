@@ -86,22 +86,9 @@
   background-position: center;
    }
 
-
-conocenos_1 {
-  display: grid;
-  grid-area: conocenos_1;
+.imgconocenos{
+width: 75%;
 }
-
-conocenos_2 {
-  display: grid;
-  grid-area: conocenos_2;
-}
-
-conocenos_3 {
-  display: grid;
-  grid-area: conocenos_3;
-}
-
 
 
 .header__nav__ul {
